@@ -1,0 +1,36 @@
+.header{
+    height:60px;
+    position:sticky;
+    z-index:100;
+    top: 0;
+    background: #131921;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__logo{
+    width:100px;
+    object-fit: contain;
+    margin: 10px 20px 0;
+}
+.header__searchInput{
+    width:100%;
+    flex:1;
+    height:10px;
+    padding:11px;
+}
+.header__nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display:flex;
+    flex-direction:column;
+}
+.header__searchIcon{
+    padding:5px;
+    background-color:#cd9042;
+    height:22px !important;
+}
