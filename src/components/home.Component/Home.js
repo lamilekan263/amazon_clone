@@ -14,7 +14,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            title="The lean Startup"
+            title="The Lean Startup: How constant innovation Creates Radically Successful Business Paperback"
             price={29.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
