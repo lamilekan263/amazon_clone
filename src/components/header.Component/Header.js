@@ -6,7 +6,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import "./Header.css";
 
 const Header = () => {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <div className="header">
       <Link to="/">

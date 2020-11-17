@@ -3,7 +3,7 @@ import React from 'react'
 import { useStateValue } from '../State/StateProvider'
 import './Product.css'
 function Product({ id,title, image, price, rating }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [state, dispatch] = useStateValue();
   const addToBasket = () => (
     // dispatch the item to the date layer
     dispatch({
